@@ -1,9 +1,9 @@
 # nordcoders-react
 Réalisation du Tutoriel de Nord Coders sur React.js
 
-__v1.__ Introduction à ReactJS  
+__v2.__ Props & JSX  
 
-[Introduction](https://www.youtube.com/watch?v=zNEck1k3_zY&list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj&index=2)
+[Les props et le JSX](https://www.youtube.com/watch?v=M_6_Rk0J_M0&list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj&index=3)
 
 [Playlist Youtube](https://www.youtube.com/playlist?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)  
 [NordCoders](https://www.youtube.com/c/NordCoders)
