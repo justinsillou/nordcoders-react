@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Composants React JS</title>
+    <title>Props To Composants React JS</title>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
@@ -12,22 +12,24 @@
     <script type="text/babel">
 
       const root = document.getElementById('root');
-      const title = "Hello World !";
 
-      function Component(){
+      function Component({data}){
         return (
           <section>
-            <h1>{title}</h1>
+            <h1>{data}</h1>
           </section>
         )
       }
 
-      const template = (
-        <main>
-          <Component />
-        </main>
-      );
-      ReactDOM.render(template, root);
+      function Template(){
+        const title = "Hello World !";
+        return(
+          <main>
+            <Component data={title}/>
+          </main>
+        )
+      };
+      ReactDOM.render(<Template />, root);
 
 
     </script>
