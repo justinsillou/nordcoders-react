@@ -1,6 +1,10 @@
 # nordcoders-react
 Réalisation du Tutoriel de Nord Coders sur React.js
 
+```console
+git checkout *tag*
+```
+
 __v1.__ Introduction à ReactJS  
 __v2.__ Props & JSX  
 __v3.__ First Component  
