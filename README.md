@@ -13,6 +13,7 @@ __v5.__ New React App
 __v6.__ Index.js  
 __v7.__ React Developer Tools  
 __v8.__ CSS  
+  __v8.1.__ Ajout du fichier CSS
 __v9.__ TailwindCSS  
 __v10.__ Component basé sur classe  
 __v11.__ Évenements : onClick  
