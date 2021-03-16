@@ -1,7 +1,6 @@
-import './css/app.css';
 
 function App( {title} ){
-  return  <h1 className="heading">{title}</h1>;
+  return  <h1 className="text-center text-blue-500 text-3xl">{title}</h1>;
 }
 
 export default App;
