@@ -3,11 +3,21 @@ import React from 'react';
 class App extends React.Component {
   constructor(props){
       super(props);
-      this.state = {title: "Hello World !"};
+      this.state = { show: false };
   }
 
-  render() {
-    return  <h1 className="text-center text-blue-500 text-3xl">{this.state.title}</h1>;
+  render(){
+    return <div>
+      <button className="bg-purple-900 text-white rounded py-2 px-3"
+        onClick={() => this.setState({show: !this.state.show})}>Click me</button>
+      {
+        this.state.show ?
+        <img className="w-40 mx-auto" src="linux_logo.png"></img>
+        : null
+      }
+
+
+    </div>;
   }
 }
 
