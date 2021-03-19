@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Picture from './components/Picture';
 
 function App() {
@@ -6,12 +6,15 @@ function App() {
   const [title, setTitle] = useState("Hello World !");
   const [show, setShow] = useState(false);
 
+  useEffect(() => console.log('Composant App monté'), []);
+
   function handleClick(){
     setShow(!show);
   }
 
   return (
     <div>
+      {console.log('JSX Render')}
       <h1 className="text-4xl text-purple-700 my-5">{title}</h1>
       <button className="bg-purple-900 text-white rounded py-2 px-3"
         onClick={handleClick}>Click me</button>
