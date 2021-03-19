@@ -1,6 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Picture from './components/Picture';
 
+function App() {
+
+  const [title, setTitle] = useState("Hello World !");
+  const [show, setShow] = useState(false);
+
+  function handleClick(){
+    setShow(!show);
+  }
+
+  return (
+    <div>
+      <h1 className="text-4xl text-purple-700 my-5">{title}</h1>
+      <button className="bg-purple-900 text-white rounded py-2 px-3"
+        onClick={handleClick}>Click me</button>
+      {show ? <Picture /> : null}
+    </div>
+  );
+}
+
+/*
 class App extends React.Component {
   constructor(props){
       super(props);
@@ -31,5 +51,6 @@ class App extends React.Component {
     </div>;
   }
 }
+*/
 
 export default App;
