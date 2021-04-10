@@ -1,9 +1,9 @@
 # nordcoders-react
 Réalisation du Tutoriel de Nord Coders sur React.js
 
-__v14.__ Hooks : useEffect  
+__v15.__ Mettre à jour le composant
 
-[Les Hooks: useEffect](https://youtu.be/6_VasYWD-18?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)
+[Mettre à jour le composant](https://youtu.be/_6549QC-s6M?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)
 
 [Playlist Youtube](https://www.youtube.com/playlist?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)  
 [NordCoders](https://www.youtube.com/c/NordCoders)
