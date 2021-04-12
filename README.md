@@ -26,7 +26,7 @@ __v17.__ Component dans un component
 __v18.__ TP : Ajouter une image  
 __v19.__ Supprimer une image    
 __v20.__ onMouseEnter / onMouseLeave et classe dynamique    
-__v21.__ Créer un Composant enfant
+__v21.__ Créer un Composant enfant  
 __v22.__ useRef ou useState ?
 
 
