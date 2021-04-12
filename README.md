@@ -1,9 +1,9 @@
 # nordcoders-react
 Réalisation du Tutoriel de Nord Coders sur React.js
 
-__v17.__ Composant dans un composant
+__v18.__ TP : Ajouter une Image
 
-[Un composant dans un composant](https://youtu.be/T-s4cGaSLDo)
+[TP : Ajouter une Image](https://youtu.be/AaaHkUt3-q0)
 
 [Playlist Youtube](https://www.youtube.com/playlist?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)  
 [NordCoders](https://www.youtube.com/c/NordCoders)
