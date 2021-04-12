@@ -4,6 +4,21 @@ function Picture(){
 
   //const [myTimer, setMyTimer] = useState(null);
 
+  const images = [
+    'linux_logo.png',
+    'linux_logo_red.png',
+    'linux_logo_green.png',
+    'linux_logo_blue.png'
+  ];
+
+  function ImagesComponent(){
+    return images.map((name) => {
+      return (
+        <img className="w-40 mx-auto" src={name} alt="logo"></img>
+      );
+    });
+  }
+
   useEffect(() => {
 
     const myTimer = setInterval(() => {
@@ -14,8 +29,8 @@ function Picture(){
   }, []);
 
   return (
-    <div>
-      <img className="w-40 mx-auto" src="linux_logo.png" alt="logo"></img>
+    <div className="flex item-center justify-between">
+      <ImagesComponent />
     </div>
   );
 }
