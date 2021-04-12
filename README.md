@@ -25,6 +25,10 @@ __v16.__ Afficher plusieurs Images
 __v17.__ Component dans un component  
 __v18.__ TP : Ajouter une image  
 __v19.__ Supprimer une image    
+__v20.__ onMouseEnter / onMouseLeave et classe dynamique    
+__v21.__ Créer un Composant enfant
+__v22.__ useRef ou useState ?
+
 
 [Playlist Youtube](https://www.youtube.com/playlist?list=PLeeuvNW2FHVjVHC8LTbqAvGe9I23sl0Bj)  
 [NordCoders](https://www.youtube.com/c/NordCoders)
